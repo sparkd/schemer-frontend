@@ -30,4 +30,6 @@ export default {
 }
 </script>
 
+<!-- TODO: I don't like this being attached by the vue object. -->
+
 <style src="./sass/app.scss" lang="scss"></style>
