@@ -1,0 +1,8 @@
+@import "./variables.scss";
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+
+/** GLOBALS **/
+body{
+  color: $black;
+  background: lime;
+}
