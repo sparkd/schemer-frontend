@@ -5,9 +5,22 @@
     <title>Schemer UI Example</title>
   </head>
   <body>
-    <div id="app">
-        <schemer>
-    </div>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Schemer - Linked Open Database</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div id="app">
+                <router-view></router-view>         
+            </div>   
+        </div>          
+    </div>  
     <script src="/dist/build.js"></script>
   </body>
 </html>

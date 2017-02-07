@@ -1,0 +1,13 @@
+.alpaca-control-label{
+    text-transform: capitalize;
+
+    &:after {
+       content: ": ";
+    }
+}
+
+.btn{
+    span.glyphicon{
+        padding-right: 6px;
+    }
+}

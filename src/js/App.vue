@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="../assets/logo.png">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -32,4 +32,4 @@ export default {
 
 <!-- TODO: I don't like this being attached by the vue object. -->
 
-<style src="./sass/app.scss" lang="scss"></style>
+<style src="../sass/app.scss" lang="scss"></style>

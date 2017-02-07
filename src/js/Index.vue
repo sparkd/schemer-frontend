@@ -1,14 +1,17 @@
 <template>
-  <ul>
-    <li v-for="schema in schemas">
-      {{ schema.title }}
-    </li>
-  </ul>
+<div>
+  <div class="panel panel-default" v-for="(schema, slug) in schemas">
+  <div class="panel-body">
+    <router-link :to="{ name: 'schema.list', params: { schemaSlug: slug }}">{{ schema.title }}</router-link> 
+    <router-link :to="{ name: 'schema.create', params: { schemaSlug: slug }}">Create</router-link> 
+  </div>
+</div>  
+</div>
 </template>
 
 <script>
 export default {
-  name: 'schemer',
+  name: 'SchemaIndex',
   data () {
     return {
       schemas: []

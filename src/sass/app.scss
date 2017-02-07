@@ -1,9 +1,16 @@
 @import "./variables.scss";
-
 $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 @import "~bootstrap-sass/assets/stylesheets/_bootstrap";
+@import "./forms.scss";
 
-body{
-  color: $black;
-  background: lime;
+.no-margin{
+    margin: 0!important;
+}
+
+.list-no-bullets{
+    list-style-type: none;
+    li{
+        margin-top: 5px;
+        display: block;
+    }
 }
